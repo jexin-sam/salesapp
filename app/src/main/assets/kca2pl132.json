@@ -1,0 +1,126 @@
+{
+  "products" : {
+    "KCA2PL132" : {
+      "bleachingCertification" : "KVIC",
+      "bleachingList" : [ {
+        "companyname" : "ABC",
+        "state" : "America"
+      } ],
+      "bulkprice" : "295 Rupees",
+      "composition" : "Organic Cotton",
+      "construction" : "60*49",
+      "count" : "30s*30s",
+      "finish" : "Bleach",
+      "gsm" : "100",
+      "inspectionCertification" : "IHB/KVIC",
+      "inspectionList" : [ {
+        "companyname" : "Fabric Monde Pvt Ltd",
+        "state" : "Bangalore"
+      } ],
+      "leadtime" : "227 days",
+      "madeinInfoList" : [ {
+        "certification" : "GOTS",
+        "type" : "Organic Cotton"
+      }, {
+        "certification" : "KVIC",
+        "type" : "Handspun yarns from Charaka"
+      }, {
+        "certification" : "IHB/KVIC",
+        "type" : "Handwoven fabric from handloom"
+      } ],
+      "productcode" : "KCA2PL132",
+      "quantity" : "19,600 meters",
+      "sliverCertification" : "GOTS",
+      "sliverprepList" : [ {
+        "companyname" : "Cotton Connect",
+        "state" : "New Delhi"
+      }, {
+        "companyname" : "Kanda Textiles",
+        "state" : "Salem Tamil Nadu"
+      }, {
+        "companyname" : "Vernal Textiles",
+        "state" : "New Delhi"
+      }, {
+        "companyname" : "Anandi Enterprises",
+        "state" : "Tirupur"
+      }, {
+        "companyname" : "Biore",
+        "state" : "Madhya Pradesh"
+      } ],
+      "spinningCertification" : "ABC",
+      "spinningList" : [ {
+        "companyname" : "Sarvoday Sewa Samiti",
+        "state" : "Gujarat"
+      }, {
+        "companyname" : "Bapu Nagar Samaj Sewa Sangh",
+        "state" : "Gujarath"
+      }, {
+        "companyname" : "Bhagyodaya Sewa Sangh",
+        "state" : "Gujarath"
+      }, {
+        "companyname" : "Mahatma Gandhi Sewa Ashram",
+        "state" : "Madhya Pradesh"
+      }, {
+        "companyname" : "Khadi Nekarara Sahakara Utpadaka Sangha",
+        "state" : "Karnataka"
+      }, {
+        "companyname" : "Dharwad Taluka Hebballi Kshetriya Seva Sangh",
+        "state" : "Karnataka"
+      }, {
+        "companyname" : "Khadi & Gramodyog sahakari utpadak Sangh,",
+        "state" : "Karnataka"
+      }, {
+        "companyname" : "Magan Khadi",
+        "state" : "Maharashtra"
+      }, {
+        "companyname" : "Gandhigram",
+        "state" : "Tamil Nadu"
+      }, {
+        "companyname" : "KVIC Units",
+        "state" : "Karnataka or Gujarat "
+      } ],
+      "washingCertification" : "PQR",
+      "washingList" : [ {
+        "companyname" : "Wash Hub",
+        "state" : "Bangalore"
+      }, {
+        "companyname" : "All associated units with the weaver associations across India",
+        "state" : "Bangalore"
+      } ],
+      "weave" : "Plain",
+      "weavingCertification" : "XYZ",
+      "weavingList" : [ {
+        "companyname" : "Sarvoday Sewa Samiti",
+        "state" : "Gujarat"
+      }, {
+        "companyname" : "Bapu Nagar Samaj Sewa Sangh",
+        "state" : "Gujarath"
+      }, {
+        "companyname" : "Bhagyodaya Sewa Sangh",
+        "state" : "Gujarath"
+      }, {
+        "companyname" : "Mahatma Gandhi Sewa Ashram",
+        "state" : "Madhya Pradesh"
+      }, {
+        "companyname" : "Khadi Nekarara Sahakara Utpadaka Sangha",
+        "state" : "Karnataka"
+      }, {
+        "companyname" : "Dharwad Taluka Hebballi Kshetriya Seva Sangh",
+        "state" : "Karnataka"
+      }, {
+        "companyname" : "Khadi & Gramodyog sahakari utpadak Sangh,",
+        "state" : "Karnataka"
+      }, {
+        "companyname" : "Magan Khadi",
+        "state" : "Maharashtra"
+      }, {
+        "companyname" : "Gandhigram",
+        "state" : "Tamil Nadu"
+      }, {
+        "companyname" : "KVIC Units",
+        "state" : "Karnataka or Gujarat "
+      } ],
+      "width" : "45''"
+    }
+  }
+}

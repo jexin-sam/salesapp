@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "631318294649",
+    "firebase_url": "https://fabricmonde-497d6.firebaseio.com",
+    "project_id": "fabricmonde-497d6",
+    "storage_bucket": "fabricmonde-497d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631318294649:android:749ef12a94e40e21",
+        "android_client_info": {
+          "package_name": "com.fabricmonde.salesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631318294649-e89l0s9b39tde14smrb7raunl57skgl0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fabricmonde.salesapp",
+            "certificate_hash": "f9246cbbb245d342494556648a602027c3169d4c"
+          }
+        },
+        {
+          "client_id": "631318294649-udqaptbalv0epjeo45tqa854uqilr85q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXx19USeT16QIOtUXaEJ-wibeDYG0IAyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631318294649-udqaptbalv0epjeo45tqa854uqilr85q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631318294649:android:e331b0fc3c4b1ca1",
+        "android_client_info": {
+          "package_name": "com.fabricmonde.vendorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631318294649-a9vq5rkbr7mjmupjo6fbu2h7uh429pgl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fabricmonde.vendorapp",
+            "certificate_hash": "7fb15317f02494f572e5798a94a5757e3a4261f0"
+          }
+        },
+        {
+          "client_id": "631318294649-08tm9snlmho9b02mli4jieg27u28i8qf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fabricmonde.vendorapp",
+            "certificate_hash": "f9246cbbb245d342494556648a602027c3169d4c"
+          }
+        },
+        {
+          "client_id": "631318294649-udqaptbalv0epjeo45tqa854uqilr85q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXx19USeT16QIOtUXaEJ-wibeDYG0IAyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631318294649-udqaptbalv0epjeo45tqa854uqilr85q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

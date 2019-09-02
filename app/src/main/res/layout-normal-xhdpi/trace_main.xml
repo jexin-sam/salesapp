@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_marginTop="46dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sfpro_display_bold"
+            android:layout_gravity="center"
+            android:text="Red Background 100% Cotton Organic Fabric"
+            android:textSize="18sp"
+            android:letterSpacing="0.0425"
+            android:textColor="#000000"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginTop="36dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginBottom="6dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/fabimg"/>
+
+                <customfonts.MyTextView_Roboto_Regular
+                    android:id="@+id/mProductid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/sfpro_display_bold"
+                    android:text="CCA1ND075"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="19.5dp"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/mCostperMeter"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/sfpro_display_bold"
+                            android:text="@string/_2300"
+                            android:textColor="@color/blacklight"
+                            android:textSize="12.sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="36dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/comp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/sf_pro_display_medium"
+                        android:text="Composition"
+                        android:textColor="@color/blacklight"
+                        android:textSize="13.5sp" />
+
+                    <TextView
+                        android:id="@+id/mCompostion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sf_pro_display_medium"
+                        android:text="@string/link_account"
+                        android:textColor="@color/orange"
+                        android:textSize="13.5sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/graylight" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13.8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/width" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/sf_pro_display_medium"
+                        android:text="Width"
+                        android:textColor="@color/blacklight"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/mWidth"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sf_pro_display_medium"
+                        android:text="@string/link_account"
+                        android:textColor="@color/orange"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/graylight" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13.8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/count" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/sf_pro_display_medium"
+                        android:text="Count"
+                        android:textColor="@color/blacklight"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/mCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sfuitext_semibold"
+                        android:text="@string/pay_now"
+                        android:textColor="@color/darkblue"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/graylight" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13.8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/construction" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/sf_pro_display_medium"
+                        android:text="Construction"
+                        android:textColor="@color/blacklight"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/mConstruction"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sfuitext_semibold"
+                        android:text="@string/pay_now"
+                        android:textColor="@color/darkblue"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/graylight" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13.8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/gsm" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/sf_pro_display_medium"
+                        android:text="GSM"
+                        android:textColor="@color/blacklight"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/mGSM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sfuitext_semibold"
+                        android:text="@string/pay_now"
+                        android:textColor="@color/darkblue"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/graylight" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13.8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/weave" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/sf_pro_display_medium"
+                        android:text="Weave"
+                        android:textColor="@color/blacklight"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/mWeave"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sfuitext_semibold"
+                        android:text="@string/pay_now"
+                        android:textColor="@color/darkblue"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/graylight" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13.8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:src="@drawable/mobikwik_squarelogo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/sf_pro_display_medium"
+                        android:text="Finish"
+                        android:textColor="@color/blacklight"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/mFinish"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sfuitext_semibold"
+                        android:text="@string/pay_now"
+                        android:textColor="@color/darkblue"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/graylight"
+        android:layout_marginTop="20.7dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sfpro_display_bold"
+            android:layout_gravity="center"
+            android:text="This Fabric is made from "
+            android:textSize="20sp"
+            android:letterSpacing="0.0425"
+            android:textColor="#000000"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20.8dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/certificate" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="14.2dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/sfpro_display_semibold"
+                android:text="Organic Cotton "
+                android:textColor="@color/blacklight"
+                android:textSize="15.5sp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/grather_thaen" />
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="Certified by GOTS"
+            android:textColor="@color/graydark"
+            android:textSize="12sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="21dp"
+            android:background="@color/graylight" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20.8dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/certificate" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="14.2dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/sfpro_display_semibold"
+                android:text="Natural Dye"
+                android:textColor="@color/blacklight"
+                android:textSize="15.5sp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/grather_thaen" />
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="Certified by ALL INDIA DYE"
+            android:textColor="@color/graydark"
+            android:textSize="12sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="21dp"
+            android:background="@color/graylight" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20.8dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/certificate" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="14.2dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/sfpro_display_semibold"
+                android:text="Natural Dye"
+                android:textColor="@color/blacklight"
+                android:textSize="15.5sp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/grather_thaen" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="Certified by ALL INDIA DYE"
+            android:textColor="@color/graydark"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/graylight"
+        android:layout_marginTop="20.7dp"/>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/fragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/graylight"
+        android:layout_marginTop="20.7dp"/>
+
+    <LinearLayout
+        android:id="@+id/quality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sfpro_display_bold"
+            android:layout_gravity="center"
+            android:text="Quality parameters"
+            android:textSize="20sp"
+            android:letterSpacing="0.0425"
+            android:textColor="#000000"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="14.2dp"
+                android:gravity="bottom"
+                android:layout_weight="1"
+                android:fontFamily="@font/sfpro_display_semibold"
+                android:text="Width :   "
+                android:textColor="@color/blacklight"
+                android:textSize="15.5sp" />
+
+            <com.moos.library.HorizontalProgressView
+                android:id="@+id/progressbar_width"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                app:start_color="#3bb143"
+                app:end_color="#0b6623"
+                android:layout_gravity="center"
+                app:track_width="20dp"
+                app:corner_radius="10dp"
+                app:end_progress="90"
+                app:progressTextColor="#696969"
+                app:isTracked="true"
+                app:textMovedEnable="true"
+                app:trackColor="#f4f4f4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="14.2dp"
+                android:gravity="bottom"
+                android:layout_weight="1"
+                android:fontFamily="@font/sfpro_display_semibold"
+                android:text="± 5"
+                android:textColor="@color/blacklight"
+                android:textSize="15.5sp" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="21dp"
+            android:background="@color/graylight" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="14.2dp"
+                android:gravity="bottom"
+                android:layout_weight="1"
+                android:fontFamily="@font/sfpro_display_semibold"
+                android:text="Count "
+                android:textColor="@color/blacklight"
+                android:textSize="15.5sp" />
+
+            <com.moos.library.HorizontalProgressView
+                android:id="@+id/progressbar_count"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                app:start_color="#3bb143"
+                app:end_color="#0b6623"
+                android:layout_gravity="center"
+                app:track_width="20dp"
+                app:corner_radius="10dp"
+                app:end_progress="80"
+                app:progressTextColor="#696969"
+                app:isTracked="true"
+                app:textMovedEnable="true"
+                app:trackColor="#f4f4f4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="14.2dp"
+                android:gravity="bottom"
+                android:layout_weight="1"
+                android:fontFamily="@font/sfpro_display_semibold"
+                android:text="± 5"
+                android:textColor="@color/blacklight"
+                android:textSize="15.5sp" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="21dp"
+            android:background="@color/graylight" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="14.2dp"
+                android:gravity="bottom"
+                android:layout_weight="1"
+                android:fontFamily="@font/sfpro_display_semibold"
+                android:text="Construction"
+                android:textColor="@color/blacklight"
+                android:textSize="15.5sp" />
+
+            <com.moos.library.HorizontalProgressView
+                android:id="@+id/progressbar_construction"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                app:start_color="#3bb143"
+                app:end_color="#0b6623"
+                android:layout_gravity="center"
+                app:track_width="20dp"
+                app:corner_radius="10dp"
+                app:end_progress="65"
+                app:progressTextColor="#696969"
+                app:isTracked="true"
+                app:textMovedEnable="true"
+                app:trackColor="#f4f4f4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="14.2dp"
+                android:gravity="bottom"
+                android:layout_weight="1"
+                android:fontFamily="@font/sfpro_display_semibold"
+                android:text="± 5"
+                android:textColor="@color/blacklight"
+                android:textSize="15.5sp" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="21dp"
+            android:background="@color/graylight" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="14.2dp"
+                android:gravity="bottom"
+                android:layout_weight="1"
+                android:fontFamily="@font/sfpro_display_semibold"
+                android:text="GSM :"
+                android:textColor="@color/blacklight"
+                android:textSize="15.5sp" />
+
+            <com.moos.library.HorizontalProgressView
+                android:id="@+id/progressbar_gsm"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                app:start_color="#3bb143"
+                app:end_color="#0b6623"
+                android:layout_gravity="center"
+                app:track_width="20dp"
+                app:corner_radius="10dp"
+                app:end_progress="74"
+                app:progressTextColor="#696969"
+                app:isTracked="true"
+                app:textMovedEnable="true"
+                app:trackColor="#f4f4f4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="14.2dp"
+                android:gravity="bottom"
+                android:layout_weight="1"
+                android:fontFamily="@font/sfpro_display_semibold"
+                android:text="± 5"
+                android:textColor="@color/blacklight"
+                android:textSize="15.5sp" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="21dp"
+            android:background="@color/graylight" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="14.2dp"
+                android:gravity="bottom"
+                android:layout_weight="1"
+                android:fontFamily="@font/sfpro_display_semibold"
+                android:text="Color :"
+                android:textColor="@color/blacklight"
+                android:textSize="15.5sp" />
+
+            <com.moos.library.HorizontalProgressView
+                android:id="@+id/progressbar_color"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                app:start_color="#3bb143"
+                app:end_color="#0b6623"
+                android:layout_gravity="center"
+                app:track_width="20dp"
+                app:corner_radius="10dp"
+                app:end_progress="99"
+                app:progressTextColor="#696969"
+                app:isTracked="true"
+                app:textMovedEnable="true"
+                app:trackColor="#f4f4f4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="14.2dp"
+                android:gravity="bottom"
+                android:layout_weight="1"
+                android:fontFamily="@font/sfpro_display_semibold"
+                android:text="± 5"
+                android:textColor="@color/blacklight"
+                android:textSize="15.5sp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/graylight"
+        android:layout_marginTop="20.7dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical">
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sfpro_display_bold"
+            android:layout_gravity="center"
+            android:text="Trace of the fabric"
+            android:textSize="20sp"
+            android:letterSpacing="0.0425"
+            android:textColor="#000000"/>
+
+        <FrameLayout
+            android:id="@+id/fragment_map"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+</ScrollView>

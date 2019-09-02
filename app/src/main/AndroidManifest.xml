@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.fabricmonde.salesapp">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission
+        android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <application
+        android:name=".AppState"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MovingIconWithTrailingLineActivity">
+        </activity>
+        <activity android:name=".ChooseActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".TradeCryptoStarActivity" />
+        <activity android:name=".ChartCryptoStarActivity" />
+        <activity android:name=".TraceActivity" />
+        <activity android:name=".AlternativeActivity" />
+        <activity android:name=".codescanner.CodeScannerActivity" />
+
+        <activity
+            android:name=".details.DetailsActivity"
+            android:label="@string/title_activity_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+
+
+</manifest>

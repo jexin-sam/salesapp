@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/rootholder"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="15dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="1dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/header_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="center"
+                android:transitionName="NameCompany"
+                android:src="@drawable/c1" />
+
+            <!--android:transitionName="NameCompany"-->
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="13.3dp"
+                android:fontFamily="@font/sf_pro_display_medium"
+                android:maxLines="2"
+                android:minLines="1"
+                android:text="@string/goa_beach"
+                android:textColor="@color/black"
+                android:transitionName="@string/transition_card"
+                android:textSize="13.3sp" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/sf_pro_display_medium"
+                android:text="@string/_3_night_4_days"
+                android:textColor="@color/graydark1"
+                android:transitionName="StateCompany"
+                android:textSize="11.7sp" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginRight="15.07dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/sf_pro_display_medium"
+                android:transitionName="CertificationCompany"
+                android:text="@string/_1999"
+                android:textColor="@color/blue"
+                android:textSize="13.3sp" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
